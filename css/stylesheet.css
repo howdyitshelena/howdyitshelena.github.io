@@ -81,7 +81,7 @@ html, body {
 	position: relative;
 	width: 90%;
 	min-height: 100%;
-	margin: 10% auto;
+	margin: 0 auto;
 	margin-bottom: -50px;
 }
 #main-wrapper:after {

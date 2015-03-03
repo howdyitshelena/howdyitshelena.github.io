@@ -1,0 +1,43 @@
+#title {
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.inline {
+	display: inline-block;
+}
+#detail-1 {
+	text-indent: 3em;
+}
+#date input{
+	width: 400px;
+}
+#detail-paragraph textarea{
+	width: 100%;
+}
+#thanks, #name {	
+	float: right;
+}
+#name {
+	display: block;
+	padding-top: 65px
+}
+#thanks {
+	margin-right: -35px;
+}
+#submit {
+	background: clear	;
+}
+input[type="radio"] {
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox;    /* Firefox */
+    -ms-appearance: checkbox;     /* not currently supported */
+}
+input[type="submit"] {
+	background: 0;
+	border-style: solid;
+	border-width: thin;
+}

@@ -3,9 +3,11 @@
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
     	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Dosis:200,400,700' rel='stylesheet' type='text/css'>
 		<!--<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">-->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+		<link rel="stylesheet" type="text/css" href="css/contact_stylesheet.css" />
 
     	<!-- jQuery -->
 		<script src="js/jquery-1.11.0.min.js"></script>
@@ -42,7 +44,43 @@
 		<!-- Top and Primary Navigation End -->
 
 		<div id="main-wrapper">
-			<h1>main content</h1>
+			<h1 id="title">What's your story?</h1>
+			<h2 id="dear-jillian">Dear Jillian,</h2>
+			<h3 class="inline" id="detail-1">&nbsp;I want a cake for</h3>
+			<form class="inline" id="num-people">
+				<input type="text" name="num-people" value=" (number of people)">
+			</form>
+			<h3 class="inline" id="detail-2">people and I need it by</h3>
+			<form class="inline" id="date">
+				<input type="text" cols="10" name="date" value=" (date, must be at least three weeks from today)">
+			</form>
+			<form id="detail-paragraph">
+				<textarea rows="15" cols="50" name="detail-paragraph">(Please describe what kind of cake you are looking for, and for Jillian to consider your request please include why this cake is special.)
+				</textarea>
+			</form>
+			<h3 class="inline" id="detail-3">I can be contact at</h3>
+			<form class="inline" id="email">
+				<input type="text" name="email" value=" (Email) ">
+			</form>
+			<h3 class="inline" id="detail-4">or</h3>
+			<form class="inline" id="email">
+				<input type="text" name="email" value=" (Phone number) ">
+			</form>
+			<h3 class="inline" id="detail-4">. I prefer</h3>
+			<label><input type="radio" name="radio" checked> <h3 class="inline">Email</h3></label>
+			<label><input type="radio" name="radio"> <h3 class="inline">Phone</h3></label>
+			<br>
+			<h3 class="inline" id="detail-5">I've also attached some files I thought might help you understand my vision a little better: </h3>
+			<form class="inline" id="attach">
+				<input type="file" value="Attach Files" id="attach">
+			</form>
+			<br>
+			<form id="name">
+				<input type="text" name="name" value=" (Name) ">
+				<input type="submit" value="Send mail" id="submit">
+			</form>
+
+			<h2 id="thanks">Thanks,</h2>
 		</div>
 		
 		<footer>
