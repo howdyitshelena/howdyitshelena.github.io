@@ -4,22 +4,34 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
     	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 		<!--<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">-->
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
         <link rel="stylesheet" type="text/css" href="css/sass_compiled.css" />
         <link rel="stylesheet" type="text/css" href="css/sass_compiled.css.map" />
-    	<!-- jQuery -->
-		<script src="js/jquery-1.11.0.min.js"></script>
-
+        <!-- jQuery -->
+        <script src="js/jquery-1.11.0.min.js"></script>
 		<meta charset="UTF-8">
 		<title>Story Cakes</title>
 	</head>
     <body>
+        
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
 		<!-- Begin splash page -->
-        <div id="splash">
-            <img src="img/splash-image-black.jpg" />
-        </div>
-		<!-- Top and Primary Navigation Begin -->
+        <section id="slide-1" class="homeSlide">
+            <div class="splash" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
+                <div class="splash-text"
+                    data-center="bottom: 200px; opacity: 0"
+                    data-top="bottom: 1200px; opacity: 1"
+                    data-anchor-target="#slide-1"></div>
+                
+                <a href="#" class="btn btn-lg btn-default">Learn more</a>
+            </div>
+        </section>
+        
+        <!-- Top and Primary Navigation Begin -->
 		<div id="wrapper">
 			
 			<div id="right-wrapper">
@@ -55,10 +67,9 @@
 				<h2>copyright &copy; 2015 jillian tetangco.  storycakes.com</h2>
 			</div>
 		</footer>
-
-	<script type="text/javascript" src="skrollr.min.js"></script>
-    <script type="text/javascript">
-    var s = skrollr.init();
-    </script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/_main.js"></script>
     </body>
 </html>
