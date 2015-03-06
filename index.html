@@ -25,9 +25,10 @@
                 <div class="splash-text"
                     data-center="bottom: 200px; opacity: 0"
                     data-top="bottom: 1200px; opacity: 1"
-                    data-anchor-target="#slide-1"></div>
-                
-                <a href="#" class="btn btn-lg btn-default">Learn more</a>
+                    data-anchor-target="#slide-1">
+                    
+                    <a href="#wrapper" id="enter-button" class="btn btn-lg btn-outline">ENTER</a>
+                </div>
             </div>
         </section>
         
@@ -71,5 +72,22 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/skrollr.js"></script>
         <script src="js/_main.js"></script>
+        <script>
+            $(function() {
+              $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+                  var target = $(this.hash);
+                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                  if (target.length) {
+                    $('html,body').animate({
+                      scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                  }
+                }
+              });
+            });
+        </script>
     </body>
 </html>
