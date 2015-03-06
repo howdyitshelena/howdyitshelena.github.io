@@ -17,15 +17,18 @@ section {
     position: relative;
     background: url("../img/splash-text.png") center center no-repeat;
     background-size: contain;
-    top: 50%;
+    top: 45%;
     left: 50%;
-    height: 25%;
+    height: 35%;
     width: 50%;
     margin: -15% 0 0 -25%; }
-  .splash button {
-    width: 200px;
-    height: 100px;
-    display: inline-block;
-    border: 4px solid red; }
+    .splash .splash-text #enter-button {
+      width: 100%;
+      font-size: 40px;
+      position: absolute;
+      bottom: 0; }
+  .splash .btn-outline {
+    color: white;
+    background-color: transparent; }
 
 /*# sourceMappingURL=sass_compiled.css.map */
