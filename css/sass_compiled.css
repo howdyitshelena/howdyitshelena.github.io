@@ -1,0 +1,9 @@
+#splash {
+  display: block;
+  height: 100%;
+  width: auto;
+  overflow: hidden; }
+  #splash img {
+    width: 100%; }
+
+/*# sourceMappingURL=sass_compiled.css.map */
