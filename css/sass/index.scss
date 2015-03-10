@@ -1,5 +1,5 @@
 section {
-    height: 130%;
+    height: 140%;
 	min-width: 960px;
 	opacity: 1;
 }
@@ -20,19 +20,34 @@ section {
         background-size: contain;
         top: 45%;
         left: 50%;
-        height: 35%;
+        height: 25%;
         width: 50%;
         margin: -15% 0 0 -25%;
         
+    }
+    .button-holder {
         #enter-button {
             width: 100%;
             font-size: 40px;
             position: absolute;
             bottom: 0;
-        }
+        }   
     }
     .btn-outline {
         color: white;
         background-color: transparent;
+    }
+}
+
+#main-wrapper {
+    width: 80%;
+    
+    .cake {
+        width: 30%;
+        padding: 20px;
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 }
