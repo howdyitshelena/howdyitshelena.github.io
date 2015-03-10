@@ -1,5 +1,5 @@
 section {
-  height: 130%;
+  height: 100%;
   min-width: 960px;
   opacity: 1; }
 
@@ -17,18 +17,27 @@ section {
     position: relative;
     background: url("../img/splash-text.png") center center no-repeat;
     background-size: contain;
-    top: 45%;
+    top: 35%;
     left: 50%;
-    height: 35%;
+    height: 25%;
     width: 50%;
     margin: -15% 0 0 -25%; }
-    .splash .splash-text #enter-button {
-      width: 100%;
-      font-size: 40px;
-      position: absolute;
-      bottom: 0; }
+  .splash .button-holder #enter-button {
+    width: 100%;
+    font-size: 40px;
+    position: absolute;
+    bottom: 0; }
   .splash .btn-outline {
     color: white;
     background-color: transparent; }
+
+#main-wrapper {
+  width: 80%; }
+  #main-wrapper .cake {
+    width: 30%;
+    padding: 20px; }
+    #main-wrapper .cake img {
+      width: 100%;
+      height: auto; }
 
 /*# sourceMappingURL=sass_compiled.css.map */
