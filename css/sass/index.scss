@@ -45,9 +45,53 @@ section {
     .cake {
         width: 33%;
         padding: 0px;
+        overflow: hidden;
+        position: relative;
         img {
             width: 100%;
             height: auto;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+        }
+        .blurb {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            color: #fff;
+            visibility: hidden;
+            opacity: 0;
+            text-align: center;
+            -webkit-transition: visibility opacity 0.2s;
+        }
+        .cake-title {
+            height: 30%;
+            top: 35%;
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .cake-description {
+            font-size: 20px;
+            height: 40%;
+            padding-top: 40%;
+        }
+        &:hover {
+            img {
+                filter: blur(5px) grayscale(45%);
+                -webkit-filter: blur(5px) grayscale(45%);
+                -moz-filter: blur(5px) grayscale(45%);
+                -o-filter: blur(5px) grayscale(45%);
+                -ms-filter: blur(5px) grayscale(45%);
+            }
+            .blurb {
+                visibility: visible;
+                opacity: 1;
+            }
         }
     }
 }
