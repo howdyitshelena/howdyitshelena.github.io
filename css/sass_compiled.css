@@ -1,5 +1,6 @@
 section {
   height: 100%;
+  max-height: 1400px;
   min-width: 960px;
   opacity: 1; }
 
@@ -17,7 +18,7 @@ section {
     position: relative;
     background: url("../img/splash-text.png") center center no-repeat;
     background-size: contain;
-    top: 35%;
+    top: 45%;
     left: 50%;
     height: 25%;
     width: 50%;
@@ -66,15 +67,16 @@ section {
       text-align: center;
       -webkit-transition: visibility opacity 0.2s; }
     #main-wrapper .cake .cake-title {
-      height: 30%;
+      height: 20%;
       top: 35%;
-      display: block;
       overflow: hidden;
       white-space: nowrap; }
     #main-wrapper .cake .cake-description {
+      width: 100%;
       font-size: 20px;
       height: 40%;
-      padding-top: 40%; }
+      top: 60%;
+      padding: 20px; }
     #main-wrapper .cake:hover img {
       filter: blur(2px) grayscale(1) brightness(0.4);
       -webkit-filter: blur(2px) grayscale(1) brightness(0.4);
