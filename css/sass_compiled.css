@@ -76,11 +76,11 @@ section {
       height: 40%;
       padding-top: 40%; }
     #main-wrapper .cake:hover img {
-      filter: blur(5px) grayscale(45%);
-      -webkit-filter: blur(5px) grayscale(45%);
-      -moz-filter: blur(5px) grayscale(45%);
-      -o-filter: blur(5px) grayscale(45%);
-      -ms-filter: blur(5px) grayscale(45%); }
+      filter: blur(2px) grayscale(1) brightness(0.4);
+      -webkit-filter: blur(2px) grayscale(1) brightness(0.4);
+      -moz-filter: blur(2px) grayscale(1) brightness(0.4);
+      -o-filter: blur(2px) grayscale(1) brightness(0.4);
+      -ms-filter: blur(2px) grayscale(1) brightness(0.4); }
     #main-wrapper .cake:hover .blurb {
       visibility: visible;
       opacity: 1; }
