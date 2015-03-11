@@ -33,6 +33,14 @@ section {
 
 #main-wrapper {
   width: 80%; }
+  #main-wrapper .title-slide {
+    width: 33%;
+    padding: 0px;
+    overflow: hidden;
+    position: relative; }
+    #main-wrapper .title-slide img {
+      width: 100%;
+      height: auto; }
   #main-wrapper .cake {
     width: 33%;
     padding: 0px;

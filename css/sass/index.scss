@@ -41,7 +41,16 @@ section {
 
 #main-wrapper {
     width: 80%;
-    
+    .title-slide {
+        width: 33%;
+        padding: 0px;
+        overflow: hidden;
+        position: relative;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
     .cake {
         width: 33%;
         padding: 0px;
