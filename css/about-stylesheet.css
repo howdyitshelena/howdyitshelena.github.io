@@ -1,0 +1,47 @@
+p {
+	font-size: 16px;
+}
+#banner-image {
+	max-height: 25%;
+	padding-top: 20px
+}
+#title {
+	text-align: center;
+	padding: 50px 0;
+}
+.parent {
+	float: left;
+}
+.left-half, 
+.right-half {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+#jill-left {
+	max-width: 100%;
+	max-height: 100%;
+}
+#first-right{
+	padding-left: 45px;
+	padding-top: 130px;
+}
+#second-parent {
+	padding-bottom: 75px;
+}
+#quote{
+	padding-right: 40px;
+	padding-left: 45px;
+	padding-top: 150px;
+}
+#second-left h4 {
+	padding-left: 100px;
+}
+#second-left p {
+	padding-top: 50px;
+	padding-left: 35px;
+	padding-right: 40px;
+}
+#contact {
+	padding-left: 130px;
+}
