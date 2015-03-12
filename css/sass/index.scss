@@ -106,3 +106,30 @@ section {
         }
     }
 }
+
+.modal-dialog {
+    width: 70%;
+    height: 40px;
+    .modal-body {
+        height: 100%;
+        .main-img {
+            width: 75%;
+            display: inline-block;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .side-img {
+            width: 25%;
+            height: 100%;
+            float: right;
+            display: inline-block;
+            img {
+                float: right;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

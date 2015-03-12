@@ -20,7 +20,7 @@
         <![endif]-->
         
 		<!-- Begin splash page -->
-        <section id="slide-1" class="homeSlide">
+        <!--<section id="slide-1" class="homeSlide">
             <div class="splash" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
                 <div class="splash-text"
                     data-center="bottom: 200px; opacity: 0"
@@ -64,13 +64,78 @@
 		<!-- Top and Primary Navigation End -->
 
 		<div id="main-wrapper">
+            <!-- Wedding Modal -->
+            <div class="modal fade" id="wedding" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h2 class="modal-title" id="myModalLabel">Wedding Cake</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="main-img">
+                                <img src="img/home-page-cakes/wedding-cake.jpg" name="weddingpic">
+                            </div>
+                            <div class="side-img">
+                                <img src="img/home-page-cakes/wedding-cake.jpg" name="wedding1" onclick="weddingpic.src=wedding1.src">
+                                <img src="img/home-page-cakes/wedding-modal/wedding-modal-1.jpg" name="wedding2" onclick="weddingpic.src=wedding2.src">
+                                <img src="img/home-page-cakes/wedding-modal/wedding-modal-3.jpg" name="wedding3" onclick="weddingpic.src=wedding3.src">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dog Modal -->
+            <div class="modal fade" id="dog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h2 class="modal-title" id="myModalLabel">Elanor's Birthday</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="main-img">
+                                <img src="img/home-page-cakes/dog-cake.jpg" name="dogpic">
+                            </div>
+                            <div class="side-img">
+                                <img src="img/home-page-cakes/dog-cake.jpg" name="dog1" onclick="dogpic.src=dog1.src">
+                                <img src="img/home-page-cakes/dog-modal/dog-modal-1.jpg" name="dog2" onclick="dogpic.src=dog2.src">
+                                <img src="img/home-page-cakes/dog-modal/dog-modal-2.jpg" name="dog3" onclick="dogpic.src=dog3.src">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Laptop Modal -->
+            <div class="modal fade" id="dog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h2 class="modal-title" id="myModalLabel">Elanor's Birthday</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="main-img">
+                                <img src="img/home-page-cakes/dog-cake.jpg" name="dogpic">
+                            </div>
+                            <div class="side-img">
+                                <img src="img/home-page-cakes/dog-cake.jpg" name="dog1" onclick="dogpic.src=dog1.src">
+                                <img src="img/home-page-cakes/dog-modal/dog-modal-1.jpg" name="dog2" onclick="dogpic.src=dog2.src">
+                                <img src="img/home-page-cakes/dog-modal/dog-modal-2.jpg" name="dog3" onclick="dogpic.src=dog3.src">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 			<table>
                 <tr>
                     <td class="title-slide">
                         <img id="jillian-slide-1" src="img/home-page-cakes/homepage-title-slide.jpg">
                     </td>    
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="wedding" src="img/home-page-cakes/wedding-cake.jpg">
                             <h2 class="blurb cake-title">WEDDING</h2>
                             <p class="blurb cake-description">Sam and Randi, both writers, love books almost as much as they love each other.  
@@ -79,7 +144,7 @@ They had a book-themed wedding down to the cake.</p>
                         </a>
                     </td>
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#dog">
                             <img id="dog" src="img/home-page-cakes/dog-cake.jpg">
                             <h2 class="blurb cake-title">ELANOR'S BIRTHDAY</h2>
                             <p class="blurb cake-description">Eleanor, a black golden-doodle and my dog’s best friend, had a birthday.</p>
@@ -88,7 +153,7 @@ They had a book-themed wedding down to the cake.</p>
                 </tr>
                 <tr>
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="laptop" src="img/home-page-cakes/laptop-cake.jpg">
                             <h2 class="blurb cake-title">LAPTOP</h2>
                             <p class="blurb cake-description">A surprise cake for my coworker who did quality assurance testing on 
@@ -97,7 +162,7 @@ www.findchips.com.  No errors could go past her!</p>
                         </a>
                     </td>    
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="penguin" src="img/home-page-cakes/penguin-cake.jpg">
                             <h2 class="blurb cake-title">HATCHING PENGUIN</h2>
                             <p class="blurb cake-description">What could be better than a penguin hatchling of for a penguin-lover’s baby shower?</p>
@@ -109,7 +174,7 @@ www.findchips.com.  No errors could go past her!</p>
                 </tr>
                 <tr>
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="shoe" src="img/home-page-cakes/shoe-cake.jpeg">
                             <h2 class="blurb cake-title">LOUBOUTIN SHOES</h2>
                             <p class="blurb cake-description">Nicole couldn’t quite spend ~$1000 for the shoes her best friend loved, so she 
@@ -118,7 +183,7 @@ wanted to give them to her in another way.</p>
                         </a>
                     </td>    
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="butterfly" src="img/home-page-cakes/butterfly-cake.jpg">
                             <h2 class="blurb cake-title">BUTTERFLY</h2>
                             <p class="blurb cake-description">Patty adores butterflies and the colors pink and black, so I wanted to make those
@@ -127,7 +192,7 @@ things come to life for her 47th birthday.</p>
                         </a>
                     </td>
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="party" src="img/home-page-cakes/penguin-party-cake.jpg">
                             <h2 class="blurb cake-title">PENGUIN PARTY</h2>
                             <p class="blurb cake-description">Great times spent at an Izakaya restaurant with friends turned into a cake for a
@@ -138,7 +203,7 @@ penguin-lover!</p>
                 </tr>
                 <tr>
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="kitty" src="img/home-page-cakes/kitty-cake.jpeg">
                             <h2 class="blurb cake-title">HELLO KITTY</h2>
                             <p class="blurb cake-description">Isabelle has magic Hello Kitty toys that come to life.  When she’s not looking, they
@@ -147,7 +212,7 @@ also like to play soccer in uniforms that match hers.</p>
                         </a>
                     </td>    
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="jellyfish" src="img/home-page-cakes/jellyfish-cake.jpg">
                             <h2 class="blurb cake-title">JELLYFISH CUPCAKES</h2>
                             <p class="blurb cake-description">I melted down gummy bears and shaped them into jellyfish, Aya’s favorite sea 
@@ -156,7 +221,7 @@ creature!</p>
                         </a>
                     </td>
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="violin" src="img/home-page-cakes/violin-cake.jpg">
                             <h2 class="blurb cake-title">VIOLIN</h2>
                             <p class="blurb cake-description">A chocolate violin cake made for a young, talented, and budding violinist!</p>
@@ -165,7 +230,7 @@ creature!</p>
                 </tr>
                 <tr>
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="nurse" src="img/home-page-cakes/nurse-cake.jpg">
                             <h2 class="blurb cake-title">NURSING SCHOOL GRADUATION</h2>
                             <p class="blurb cake-description">Stephanie, the nursing school graduate, made her graduation cap and unknowingly 
@@ -174,14 +239,14 @@ inspired this cake.</p>
                         </a>
                     </td>
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="bear" src="img/home-page-cakes/polarbear.jpg">
                             <h2 class="blurb cake-title">POLAR BEAR</h2>
                             <p class="blurb cake-description">A feisty, fun red-velvet polar bear made for a friend’s birthday.</p>
                         </a>
                     </td>
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="nurse" src="img/home-page-cakes/catpenguinturkey.jpg">
                             <h2 class="blurb cake-title">CAT, PENGUIN, TURKEY</h2>
                             <p class="blurb cake-description">These fun and silly cakes were my learning stepping stones into cake making.</p>
@@ -190,7 +255,7 @@ inspired this cake.</p>
                 </tr>
                 <tr>
                     <td class="cake">
-                        <a href="#">
+                        <a data-toggle="modal" data-target="#wedding">
                             <img id="soccer" src="img/home-page-cakes/angrysoccer.jpg">
                             <h2 class="blurb cake-title">ANGRY BIRD SOCCER</h2>
                             <p class="blurb cake-description">A quick, special surprise for two awesome kids who did amazing things at school!</p>

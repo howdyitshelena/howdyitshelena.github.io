@@ -87,4 +87,25 @@ section {
       visibility: visible;
       opacity: 1; }
 
+.modal-dialog {
+  width: 70%;
+  height: 40px; }
+  .modal-dialog .modal-body {
+    height: 100%; }
+    .modal-dialog .modal-body .main-img {
+      width: 75%;
+      display: inline-block; }
+      .modal-dialog .modal-body .main-img img {
+        width: 100%;
+        height: auto; }
+    .modal-dialog .modal-body .side-img {
+      width: 25%;
+      height: 100%;
+      float: right;
+      display: inline-block; }
+      .modal-dialog .modal-body .side-img img {
+        float: right;
+        width: 100%;
+        height: auto; }
+
 /*# sourceMappingURL=sass_compiled.css.map */
