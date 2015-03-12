@@ -34,12 +34,14 @@ section {
 
 #main-wrapper {
   width: 90%; }
-  #main-wrapper .title-slide {
-    width: 33%;
+  #main-wrapper #jillian-slide-1 {
+    width: 49.8%;
+    margin: 0;
     padding: 0px;
+    display: inline-block;
     overflow: hidden;
     position: relative; }
-    #main-wrapper .title-slide img {
+    #main-wrapper #jillian-slide-1 img {
       width: 100%;
       height: auto; }
   #main-wrapper .cake {

@@ -42,9 +42,11 @@ section {
 
 #main-wrapper {
     width: 90%;
-    .title-slide {
-        width: 33%;
+    #jillian-slide-1 {
+        width: 49.8%;
+        margin: 0;
         padding: 0px;
+        display: inline-block;
         overflow: hidden;
         position: relative;
         img {
