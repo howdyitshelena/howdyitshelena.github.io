@@ -28,6 +28,11 @@ html, body {
 	margin: 30px 0 0 0;
 	position: absolute;
 }
+#primary-nav.navbar > li.active > a {
+	display: inline-block;
+	font-weight: 900;
+	font-size: 32px;
+}
 #cakes-li {
 	width: 20%; 
 }
